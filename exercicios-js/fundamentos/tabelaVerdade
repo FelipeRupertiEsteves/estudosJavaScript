@@ -1,0 +1,15 @@
+V AND V -> V    // E
+V AND F -> F
+F AND F -> F
+
+V OR ? -> V     // OU
+F OR V -> V
+F OR F -> F
+
+V XOR V -> F    // OU EXCLUSIVO
+V XOR F -> V
+F XOR V -> V
+F XOR F -> F
+
+!V -> F         // NEGAÇÃO
+!F -> V
