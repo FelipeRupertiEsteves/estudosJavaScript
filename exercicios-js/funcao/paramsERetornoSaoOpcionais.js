@@ -1,7 +1,7 @@
 function area (largura, altura) {
-    const area = largura * altura
-    if (area > 20) {
-        console.log(`Valor acima do permitido: ${area}m².`)
+    const calcarea = largura * altura
+    if (calcarea > 20) {
+        console.log(`Valor acima do permitido: ${calcarea}m².`)
     } else {
         return area
     }

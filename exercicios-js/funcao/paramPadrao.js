@@ -5,3 +5,5 @@ function soma1(a, b, c) {
     c = c || 1
     return a + b + c
 }
+
+// operador padrão OU ||
